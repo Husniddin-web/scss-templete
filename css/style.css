@@ -363,9 +363,8 @@ ul, li {
   align-items: center;
   justify-content: center;
   background-color: white;
-  width: 15%;
+  width: 250px;
   height: 950px;
-  padding-top: 30px;
   position: fixed;
 }
 
@@ -377,7 +376,7 @@ ul, li {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 0;
+  padding: 20px;
 }
 
 .nav__bar-item {
@@ -444,37 +443,28 @@ ul, li {
 }
 
 .slide-list {
-  width: 950px;
+  width: 50%;
+  margin-top: 100px;
+  transition: all 1s ease;
   display: flex;
 }
 
 .slide-content {
-  width: 950px;
-  position: relative;
-  margin: 0 auto;
-  overflow: hidden;
   transition: all 0.4s ease;
-  overflow-x: hidden;
+  overflow: hidden;
   margin-top: 100px;
   z-index: -1;
 }
 
 .slide-content {
-  width: 950px;
+  width: 73%;
   margin: 0;
-  margin-left: 350px;
-  width: 950px;
+  margin-left: 300px;
   height: 700px;
-  overflow: hidden;
-}
-
-.slide-list {
-  margin-top: 100px;
-  transition: all 1s ease;
 }
 
 .food {
-  margin-left: 350px;
+  margin-left: 300px;
   position: relative;
   z-index: 1;
 }
@@ -571,7 +561,7 @@ ul, li {
   position: relative;
   overflow-x: hidden;
   width: 75%;
-  margin-left: 350px;
+  margin-left: 300px;
   margin-bottom: 100px;
 }
 
