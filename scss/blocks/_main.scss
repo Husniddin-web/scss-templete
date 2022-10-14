@@ -1,0 +1,31 @@
+    .slide-list{
+    width: 950px;
+    display: flex;
+}
+.slide-content{
+    width: 950px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    transition: all 0.4s ease;
+    overflow-x: hidden;
+    margin-top: 100px;
+    z-index: -1;
+}
+
+.slide-content {
+    width: 950px;
+    margin: 0;
+    margin-left: 350px;
+    width: 950px;
+    height: 700px;
+    overflow: hidden;
+}
+
+.slide-list {
+      margin-top: 100px;
+    transition: all 1s ease;
+  }
+  
+  
+    

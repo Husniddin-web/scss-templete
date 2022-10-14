@@ -1,0 +1,103 @@
+.popular-food-item {
+    box-shadow: 1px 1px 4px gray;
+    border-radius: 6px;
+    transition: all .3s ease;
+    &:hover {
+        box-shadow: 5px 5px 5px gray;
+    }
+
+    width: 600px;
+    height: 540px;
+    background: #FFFFFF;
+    padding: 15px;
+    img{
+        width: 289px;
+        height: 300px;
+        margin-bottom: 10px;
+    }
+    h2 {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 30px;
+        align-items: center;
+        color: #000000;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        align-items: center;
+        color: #A4ACAD;
+    }
+
+    hr {
+        color: gray;
+        width: 100%;
+    }
+
+
+}
+
+.box {
+    display: flex;
+    gap: 10px;
+
+    span {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+        align-items: center;
+        color: #000000;
+    }
+
+    a {
+        text-decoration: none;
+        background: #F46D40;
+        border-radius: 5px;
+        padding: 5px 30px;
+        font-weight: 500;
+        font-size: 16px;
+        color: #F2F2F2;
+    }
+}
+
+.popular-food-list {
+    position: relative;
+    overflow-x: hidden;
+    width: 75%;
+    margin-left: 350px;
+    margin-bottom: 100px;
+    // border: 1px solid black;
+}
+
+.popular-food {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 30px;
+    position: relative;
+    padding:10px;
+    // margin-left: -30px;
+    transition: all .4s ease;
+}
+// slider 
+.next {
+    z-index: 99;
+    position: absolute;
+    right: 0;
+    bottom: 170px;
+    background-color: rgba(77, 76, 76, 0.532);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.prevs {
+    z-index: 99;
+    position: absolute;
+    left: 0;
+    bottom: 170px;
+    background-color: rgba(75, 66, 66, 0.532);
+    padding: 10px;
+    border-radius: 50%;
+}

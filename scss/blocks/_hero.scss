@@ -1,0 +1,39 @@
+
+.food {
+    margin-left: 350px;
+    position: relative;
+    z-index: 1;
+}
+
+.food-title {
+    position: relative;
+    top: -50px;
+    padding-left: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.food-img {
+    transition: all .4s ease;
+    overflow: hidden;
+    filter: blur(3px);
+    z-index: -3;
+
+    &:hover {
+        transform: scale(1.2);
+        filter: blur(0px);
+
+    }
+}
+
+.col-6 {
+    overflow: hidden;
+}
+
+.col-3 {
+    overflow: hidden;
+}

@@ -4,8 +4,19 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: "DINPro";
+    overflow-x: hidden;
 }
 
 img{
     object-fit: cover;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style-type: none;
 }
